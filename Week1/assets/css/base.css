@@ -1,0 +1,17 @@
+:root {
+  --text-color: #333;
+  --hightlight-color: #7190f0;
+  --bg-color: #f1f3fe;
+  --white-color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+  line-height: 2rem;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}

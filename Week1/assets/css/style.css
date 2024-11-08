@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+.faq {
+  width: 100%;
+  max-width: 900px; /* if content larger the maximum width, it automatically change the height of element, and if smaller, the max-width no-effetc*/
+  padding: 20px;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+  font-weight: 600;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.box {
+  width: 85%;
+  margin: 0 auto;
+  background-color: var(--white-color);
+}
+.question {
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(0, 0, 0, 0.1) !important;
+  cursor: pointer;
+}
+.question .question-name .icon {
+  color: #333;
+}
+.question-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-name h3 {
+  padding: 20px;
+}
+.question .answer {
+  padding: 20px;
+  background-color: var(--white-color);
+}
+.icon {
+  font-size: 1.8rem;
+  padding: 20px;
+}
+.icon i {
+  color: var(--hightlight-color);
+}
+.answer {
+  display: none;
+}
+.toggle {
+  background-color: var(--hightlight-color);
+  color: var(--white-color);
+}
+.toggle .icon i {
+  color: var(--white-color);
+}
+.question-name:hover {
+  background-color: var(--hightlight-color);
+  color: var(--white-color);
+}
+.question-name:hover .icon i {
+  color: var(--white-color);
+}
