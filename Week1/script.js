@@ -7,8 +7,7 @@ questions.forEach((question) => {
     const icon = this.querySelector(".icon i");
 
     questions.forEach((q) => {
-      if (q !== this) {
-        console.log(this);
+      if (q !== question) {
         // forEach use a arrow function, so this will be the parent function
         const otherAnswer = q.querySelector(".answer");
         const otherIcon = q.querySelector(".icon i");
